@@ -7,21 +7,21 @@ The dataset contains detailed information about registered electric vehicles, in
 ### Key Tasks Performed:
 - **Duplicate Handling:** Identified and removed duplicate records to maintain data integrity.
 
-** - Standardization: **
+- **Standardization:**
 
-      + Removed leading/trailing white spaces
+      - Removed leading/trailing white spaces
 
-      + Eliminated unnecessary punctuation (e.g., periods)
+      - Eliminated unnecessary punctuation (e.g., periods)
 
-      + Corrected inconsistent entries in vehicle make/model and other text fields
+      - Corrected inconsistent entries in vehicle make/model and other text fields
 
-** - Data Type Conversion: ** Converted columns to appropriate data types (e.g., dates, integers, text).
+- **Data Type Conversion:** Converted columns to appropriate data types (e.g., dates, integers, text).
 
-** - Missing/Null Values: ** Detected and handled missing or null values using replacement or exclusion techniques.
+- **Missing/Null Values:** Detected and handled missing or null values using replacement or exclusion techniques.
 
-** - Irrelevant Data Removal: ** Filtered out records outside the scope of analysis (e.g., incomplete entries, outdated formats).
+- **Irrelevant Data Removal:** Filtered out records outside the scope of analysis (e.g., incomplete entries, outdated formats).
 
-** - Column Naming Conventions: ** Renamed columns to follow SQL best practices (e.g., avoiding spaces, special characters, ensuring consistency).
+- **Column Naming Conventions:** Renamed columns to follow SQL best practices (e.g., avoiding spaces, special characters, ensuring consistency).
 
 This project not only ensured the dataset was clean and analysis-ready but also laid the foundation for more advanced insights into electric vehicle trends, policy planning, and environmental research.
 
