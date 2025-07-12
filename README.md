@@ -1,21 +1,29 @@
-# Project Title: Data Cleaning of Electric Vehicle Population Dataset in MS SQL
+# Data Cleaning of Electric Vehicle Population Dataset in MS SQL
 
-Brief:
+#### This project focused on transforming a raw Electric Vehicle (EV) Population dataset into a clean, structured format using Microsoft SQL Server (MS SQL). The goal was to address common data quality issues such as inconsistencies, formatting errors, and missing values to prepare the dataset for meaningful analysis and reporting. The cleaning process improved the overall reliability of the data, making it suitable for use in analytics, dashboards, or integration with other systems.
 
-This project involved cleaning and preparing an Electric Vehicle (EV) Population dataset using Microsoft SQL Server (MS SQL). The raw dataset contained inconsistencies, missing values, and formatting issues that needed to be resolved for accurate analysis and reporting.
+#### The dataset contains detailed information about registered electric vehicles, including attributes such as Make, Model, Model Year, Electric Vehicle Type (e.g., Battery Electric or Plug-in Hybrid), Electric Range, Vehicle Location (city, ZIP code), and more. This data is typically used to study EV adoption trends, identify regional patterns, and support sustainability and infrastructure planning efforts. However, the raw data presented challenges such as inconsistent naming, missing location details, duplicate records, and improperly formatted fields.
 
-Key tasks performed included:
+### Key Tasks Performed:
 
-Identifying and handling missing or null values
+Duplicate Handling: Identified and removed duplicate records to maintain data integrity.
 
-Standardizing categorical values (e.g., EV makes and models)
+Standardization:
 
-Removing duplicate records
+Removed leading/trailing white spaces
 
-Correcting data types and formatting inconsistencies (e.g., date formats, numeric fields)
+Eliminated unnecessary punctuation (e.g., periods)
 
-Filtering out irrelevant or out-of-scope entries
+Corrected inconsistent entries in vehicle make/model and other text fields
 
-Creating clean, structured tables for downstream analytics
+Data Type Conversion: Converted columns to appropriate data types (e.g., dates, integers, text).
 
-The goal of the project was to ensure the dataset was reliable, consistent, and analysis-ready, enabling better insights into electric vehicle adoption and trends.
+Missing/Null Values: Detected and handled missing or null values using replacement or exclusion techniques.
+
+Irrelevant Data Removal: Filtered out records outside the scope of analysis (e.g., incomplete entries, outdated formats).
+
+Column Naming Conventions: Renamed columns to follow SQL best practices (e.g., avoiding spaces, special characters, ensuring consistency).
+
+This project not only ensured the dataset was clean and analysis-ready but also laid the foundation for more advanced insights into electric vehicle trends, policy planning, and environmental research.
+
+
