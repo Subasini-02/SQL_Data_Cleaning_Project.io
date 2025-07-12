@@ -5,7 +5,7 @@ This project focused on transforming a raw Electric Vehicle (EV) Population data
 The dataset contains detailed information about registered electric vehicles, including attributes such as Make, Model, Model Year, Electric Vehicle Type (e.g., Battery Electric or Plug-in Hybrid), Electric Range, Vehicle Location (city, ZIP code), and more. This data is typically used to study EV adoption trends, identify regional patterns, and support sustainability and infrastructure planning efforts. However, the raw data presented challenges such as inconsistent naming, missing location details, duplicate records, and improperly formatted fields.
 
 ### Key Tasks Performed:
-** - Duplicate Handling:** Identified and removed duplicate records to maintain data integrity.
+**-Duplicate Handling:** Identified and removed duplicate records to maintain data integrity.
 
 ** - Standardization: **
 
