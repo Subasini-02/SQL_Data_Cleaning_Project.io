@@ -9,11 +9,11 @@ The dataset contains detailed information about registered electric vehicles, in
 
 - **Standardization:**
 
-      - Removed leading/trailing white spaces
+ - Removed leading/trailing white spaces
 
-      - Eliminated unnecessary punctuation (e.g., periods)
+ - Eliminated unnecessary punctuation (e.g., periods)
 
-      - Corrected inconsistent entries in vehicle make/model and other text fields
+ - Corrected inconsistent entries in vehicle make/model and other text fields
 
 - **Data Type Conversion:** Converted columns to appropriate data types (e.g., dates, integers, text).
 
